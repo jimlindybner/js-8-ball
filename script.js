@@ -1,15 +1,22 @@
+// variables
 let userQuestion = "";
 let eightBall = "";
 let randomNum;
 let tryAgain = true;
 
+// repeat as long as tryAgain is truthy
 while (tryAgain) {
+  // generate randomNum value
   randomNum = Math.floor(Math.random() * 20);
+  // ask for userQuestion
   userQuestion = prompt(`What is your question?`);
 
+  // validating question
   while (!userQuestion) {
-    userQuestion = prompt(`Please ask a real question.`);
+    userQuestion = prompt(`Please ask a question.`);
   }
+
+  // generate eightBall response based on randomNum
   switch (randomNum) {
     case 0:
       eightBall = "It is certain.";
@@ -73,6 +80,9 @@ while (tryAgain) {
       break;
   }
 
+  // return eightBall response
   alert(eightBall);
+
+  // ask if user wants to try again
   tryAgain = confirm(`Try again?`);
 }
