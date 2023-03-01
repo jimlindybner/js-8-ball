@@ -4,7 +4,7 @@ let randomNum;
 let tryAgain = true;
 
 while (tryAgain) {
-  randomNum = randomNum = Math.floor(Math.random() * 20);
+  randomNum = Math.floor(Math.random() * 20);
   userQuestion = prompt(`What is your question?`);
 
   while (!userQuestion) {
