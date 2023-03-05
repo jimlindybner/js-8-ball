@@ -29,7 +29,7 @@ const answers = [
 // repeat as long as tryAgain is truthy
 while (tryAgain) {
   // generate randomNum value
-  randomNum = Math.floor(Math.random() * 20);
+  randomNum = Math.floor(Math.random() * answers.length);
   // ask for userQuestion
   userQuestion = prompt(`Please ask your (yes or no) question?`);
 
