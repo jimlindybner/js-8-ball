@@ -38,7 +38,7 @@ while (tryAgain) {
     userQuestion = prompt(`Please ask a real question.`);
   }
 
-  // generate eightBall response based on randomNum
+  // generate eightBall response based on answers arr and randomNum
   eightBall = answers[randomNum];
 
   // return eightBall response
