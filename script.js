@@ -33,7 +33,7 @@ while (tryAgain) {
   // ask for userQuestion
   userQuestion = prompt(`Please ask your (yes or no) question?`);
 
-  // validating question - empty string input not valid
+  // validating question - repeat while userQuestion is falsy
   while (!userQuestion) {
     userQuestion = prompt(`Please ask a real question.`);
   }
