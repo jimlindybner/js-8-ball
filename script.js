@@ -45,5 +45,5 @@ while (tryAgain) {
   alert(eightBall);
 
   // ask if user wants to try again
-  tryAgain = confirm(`Try again?`);
+  tryAgain = confirm(`Do you want to ask another question?`);
 }
