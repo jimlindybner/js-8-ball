@@ -31,7 +31,7 @@ while (tryAgain) {
   // generate randomNum value
   randomNum = Math.floor(Math.random() * answers.length);
   // ask for userQuestion
-  userQuestion = prompt(`Please ask your (yes or no) question?`);
+  userQuestion = prompt(`Please ask a yes or no question?`);
 
   // validating question - repeat while userQuestion is falsy
   while (!userQuestion) {
