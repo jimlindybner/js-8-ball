@@ -1,8 +1,12 @@
 h1 {
   display: none;
+  color: #fff;
+}
+
+p {
+  color: #fff;
 }
 
 body {
-  background: #000 url("./images/eight-g7efab83e9_1280.png") no-repeat center
-    center;
+  background: #000 url("./images/eight-g7efab83e9_1280.png") repeat center;
 }
